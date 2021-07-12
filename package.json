@@ -4,13 +4,14 @@
   "description": "Make a blog for practicing CRUD Features.",
   "main": "index.js",
   "dependencies": {
+    "create-react-app": "^4.0.3",
     "express": "^4.17.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
   },
   "scripts": {
-    "start":"node server.js",
+    "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
